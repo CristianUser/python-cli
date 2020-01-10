@@ -1,5 +1,5 @@
-from cli.src.fetch import get_request
+from cli.src.fetch import make_request
 
 
 def init_runners(args):
-    get_request(args)
+    make_request(args)
